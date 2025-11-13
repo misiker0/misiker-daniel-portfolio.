@@ -190,15 +190,18 @@ footer {
     margin: 0;
   }
 
+  @media (max-width: 768px) {
   nav {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
   }
 
   nav a {
     font-size: 1em;
     padding: 0.5em 1em;
+    white-space: nowrap;
+  }
   }
 
   section {
@@ -220,5 +223,10 @@ footer {
     font-size: 1em;
     padding: 0.6em;
   }
+}
+nav {
+  background-color: #1f1f1f;
+  padding: 0.5em 1em;
+  border-radius: 8px;
 }
 
