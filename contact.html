@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="about.html"><i class="fas fa-user"></i> About</a>
+      <a href="skills.html"><i class="fas fa-code"></i> Skills</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Send Me a Message</h2>
+    <form action="https://formspree.io/f/mgvrvldd" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="_replyto" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <h3>Other Ways to Reach Me</h3>
+    <ul class="social-links">
+      <li><i class="fas fa-envelope"></i> <a href="mailto:misiker122@gmail.com">misiker122@gmail.com</a></li>
+      <li><i class="fab fa-github"></i> <a href="https://github.com/misiker0" target="_blank">misiker0</a></li>
+      <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/misiker_daniel" target="_blank">@misiker_daniel</a></li>
+      <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/misiker-daniel" target="_blank">misiker-daniel</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Misiker</p>
+  </footer>
+</body>
+</html>
